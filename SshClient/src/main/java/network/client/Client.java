@@ -19,17 +19,13 @@ public class Client {
     private SocketReader reader;
     private CustomLogger log;
 
-    public Client() {
-        writer = new SocketWriter();
-        reader = new SocketReader();
-        ipAddress = "localhost";
-        port = 8888;
-    }
-
     public Client(String ipAddress, int port) {
         this.ipAddress = ipAddress;
         this.port = port;
         inetAddress = new InetSocketAddress(ipAddress, port);
+        log = new CustomLogger(Client.class.getName());
+        reader = new SocketReader();
+        writer = new SocketWriter();
     }
 
     public void connect() {
@@ -38,13 +34,13 @@ public class Client {
             String userInput;
             String answer;
             answer = reader.read(channel);
-            log.logMessage("Received from server : " + answer);
+            log.logMessage(String.format("Received from server : %s",answer));
             while ((userInput = stdIn.readLine()) != null) {
-                log.logMessage("Prepared message: " + userInput);
+                log.logMessage(String.format("Prepared message : %s", userInput));
                 ByteBuffer b = writer.write(channel,userInput);
                 log.logMessage(String.format("Sending Message: %s\nbufferBytes: %d", userInput, b.position()));
                 answer = reader.read(channel);
-                log.logMessage("Received from server : " + answer);
+                log.logMessage(String.format("Received from server : %s",answer));
             }
         } catch (IOException e) {
             log.logMessage(Level.SEVERE, e.toString(), e);

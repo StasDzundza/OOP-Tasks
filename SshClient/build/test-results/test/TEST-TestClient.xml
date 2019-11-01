@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestClient" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-10-28T08:44:22" hostname="DESKTOP-2QK2ARG" time="1.188">
+<testsuite name="TestClient" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-01T16:43:40" hostname="DESKTOP-2QK2ARG" time="0.815">
   <properties/>
-  <testcase name="checkAddress" classname="TestClient" time="0.988"/>
-  <testcase name="checkReading" classname="TestClient" time="0.156"/>
-  <testcase name="checkWriting" classname="TestClient" time="0.013"/>
+  <testcase name="checkAddress" classname="TestClient" time="0.815"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

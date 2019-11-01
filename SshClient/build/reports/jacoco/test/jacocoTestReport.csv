@@ -1,0 +1,6 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+untitled,network,SocketWriter,3,49,0,0,1,14,1,3,1,3
+untitled,network,SocketReader,8,27,1,1,1,8,1,2,0,2
+untitled,network.client,CustomLogger,8,26,0,0,3,10,1,5,1,5
+untitled,network.client,Main,12,0,0,0,4,0,2,0,2,0
+untitled,network.client,Client,94,36,2,0,15,9,2,2,1,2

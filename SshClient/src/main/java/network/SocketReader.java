@@ -14,6 +14,9 @@ public class SocketReader {
         byteBuffer.clear();
         channel.read(byteBuffer);
         byteBuffer.flip();
-        return new String(byteBuffer.array(), StandardCharsets.UTF_8).trim();
+        if(byteBuffer.remaining() != 0)
+            return new String(byteBuffer.array(), StandardCharsets.UTF_8).trim();
+        else
+            return new String("Empty answer");
     }
 }
