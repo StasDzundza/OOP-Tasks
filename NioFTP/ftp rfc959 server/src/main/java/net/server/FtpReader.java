@@ -18,7 +18,7 @@ public class FtpReader {
                 fileChannel.write(buffer);
                 counter += res;
             }
-        } while (res >= 0);
+        } while (res > 0);
         return counter;
     }
 }
