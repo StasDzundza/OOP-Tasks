@@ -1,7 +1,5 @@
 package network;
 
-import sun.rmi.runtime.Log;
-
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -13,6 +11,7 @@ public class Server {
     private ServerSocket server = null;
     private final int port = 1111;
     private Logger log;
+    private Socket client;
 
     public Server() throws IOException {
         server = new ServerSocket(port);
@@ -20,17 +19,8 @@ public class Server {
     }
 
     public void checkConnection() throws IOException, ClassNotFoundException {
-        Socket client = server.accept();
+        client = server.accept();
         log.info("Connection is accepted");
-        out = new ObjectOutputStream(client.getOutputStream());
-        in = new ObjectInputStream(client.getInputStream());
-
-        FootballPlayer player = readData(client);
-        log.info("Object has been received");
-        player.showInformation();
-
-        closeStreams();
-        client.close();
     }
 
     private void closeStreams() throws IOException {
@@ -39,9 +29,14 @@ public class Server {
         server.close();
     }
 
-    private FootballPlayer readData(final Socket client) throws IOException, ClassNotFoundException {
-        FootballPlayer player = (FootballPlayer) in.readObject();
-        return player;
+    public Object readData() throws IOException, ClassNotFoundException {
+        out = new ObjectOutputStream(client.getOutputStream());
+        in = new ObjectInputStream(client.getInputStream());
+        log.info("Object has been received");
+        Object obj = in.readObject();
+        closeStreams();
+        client.close();
+        return obj;
     }
 
     public int getLocalPort(){

@@ -104,11 +104,11 @@ public class FtpServer {
                         StandardOpenOption.WRITE));
         ByteBuffer buffer = ByteBuffer.allocate(configuration.getBufferSize());
         FtpReader reader = new FtpReader();
-        //System.out.println(1);
-        //int numOfReadedBytes = reader.readFile(client,fileChannel,configuration.getBufferSize());
-        //System.out.println(2);
+        System.out.println(1);
+        int numOfReadedBytes = reader.readFile(client,fileChannel,configuration.getBufferSize());
+        System.out.println(2);
         ByteBuffer b = ByteBuffer.allocate(1024);
-        int numOfReadedBytes = client.read(b);
+        //int numOfReadedBytes = client.read(b);
         String answer = new String(b.array(), StandardCharsets.UTF_8).trim();
         logger.info(numOfReadedBytes + " bytes were readed");
         logger.info(answer);

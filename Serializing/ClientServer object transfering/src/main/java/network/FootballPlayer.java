@@ -1,6 +1,7 @@
 package network;
 
-import java.io.Serializable;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
 
 public class FootballPlayer implements Serializable {
     private String name = "Undefined";
@@ -17,11 +18,13 @@ public class FootballPlayer implements Serializable {
         this.salary = salary;
     }
 
-    public void showInformation(){
-        System.out.println(String.format("Player name : %s", name));
-        System.out.println(String.format("Player team : %s", team));
-        System.out.println(String.format("Player nationality : %s", nationality));
-        System.out.println(String.format("Player age : %d", age));
-        System.out.println(String.format("Player salary : %f", salary));
+    public void writeInFile(String fileName) throws IOException {
+        PrintWriter writer = new PrintWriter(fileName, StandardCharsets.UTF_8);
+        writer.println(String.format("Player name : %s", name));
+        writer.println(String.format("Player team : %s", team));
+        writer.println(String.format("Player nationality : %s", nationality));
+        writer.println(String.format("Player age : %d", age));
+        writer.println(String.format("Player salary : %f", salary));
+        writer.close();
     }
 }
