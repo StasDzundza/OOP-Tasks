@@ -7,7 +7,6 @@ import java.util.logging.Logger;
 public class Client {
     private Socket client = null;
     private ObjectOutputStream out = null;
-    private ObjectInputStream in = null;
     private String ip;
     private int port;
     private Logger log;
@@ -27,7 +26,6 @@ public class Client {
     public void connect() throws IOException {
         client = new Socket(ip, port);
         out = new ObjectOutputStream(client.getOutputStream());
-        in = new ObjectInputStream(client.getInputStream());
         log.info(String.format("Connected to the %s",client.getInetAddress().getHostAddress()));
     }
 
@@ -45,7 +43,6 @@ public class Client {
 
     private void closeStreams() throws IOException {
         out.close();
-        in.close();
         client.close();
     }
 

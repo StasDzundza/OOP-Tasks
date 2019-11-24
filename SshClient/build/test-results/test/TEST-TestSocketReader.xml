@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSocketReader" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-01T16:43:41" hostname="DESKTOP-2QK2ARG" time="0.012">
-  <properties/>
-  <testcase name="checkReading" classname="TestSocketReader" time="0.012"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
