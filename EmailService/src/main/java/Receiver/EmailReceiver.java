@@ -1,14 +1,19 @@
 package Receiver;
 
 import javax.mail.*;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Properties;
+import java.util.logging.*;
 import java.util.logging.Logger;
+
+import org.apache.logging.log4j.*;
+import org.apache.logging.log4j.Level;
 
 public class EmailReceiver {
     private Properties properties;
-    private final Logger logger = Logger.getLogger(EmailReceiver.class.getName());
+    private final org.apache.logging.log4j.Logger logger = (org.apache.logging.log4j.Logger) Logger.getLogger(EmailReceiver.class.getName());
     private final String host = "pop.gmail.com";
     private final String protocol = "pop3s";
     private final String folderName = "INBOX";
@@ -28,7 +33,7 @@ public class EmailReceiver {
     }
 
     public List getLetters(String username, String password, int numberOfLastMessages)  {
-        List<Message> messages = new LinkedList<>();
+        List<Message> messages = new ArrayList<>();
         try {
             Session emailSession = Session.getDefaultInstance(properties);
             Store store = emailSession.getStore(protocol);
@@ -44,7 +49,7 @@ public class EmailReceiver {
             emailFolder.close(expunge);
             store.close();
         }catch (MessagingException e){
-            logger.info(e.getMessage());
+            logger.log(Level.ERROR,e.getMessage());
         }
         return messages;
     }
