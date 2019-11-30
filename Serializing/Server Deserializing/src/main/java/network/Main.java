@@ -7,7 +7,7 @@ public class Main {
         Server s = new Server();
         s.checkConnection();
         Object object = s.readData();
-        FootballPlayer player = (FootballPlayer)object;
+        Person player = (Person)object;
         player.writeInFile("player.txt");
     }
 }

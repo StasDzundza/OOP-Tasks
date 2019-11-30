@@ -29,7 +29,7 @@ public class Client {
         log.info(String.format("Connected to the %s",client.getInetAddress().getHostAddress()));
     }
 
-    public void sendObject(FootballPlayer player) throws IOException {
+    public void sendObject(Person player) throws IOException {
         if(client.isConnected()){
             out.writeObject(player);
             out.flush();

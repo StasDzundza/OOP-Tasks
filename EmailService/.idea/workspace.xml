@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f80d99-30b2-40b7-a22a-2ae509d64b1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Receiver/EmailReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Receiver/EmailReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Encryption/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Encryption/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Encryption/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Encryption/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sender/EmailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sender/EmailSender.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +172,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ed0d9fb-0424-4dea-bc93-bb8df8b513c7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../EmailService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../EmailService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EmailService/src/main/java/Sender/EmailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../EmailService/src/main/java/Sender/EmailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NioFTP/ftp rfc959 server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../NioFTP/ftp rfc959 server/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/network/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/network/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/network/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/network/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/network/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/network/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server Deserializing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server Deserializing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server Deserializing/src/main/java/network/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server Deserializing/src/main/java/network/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server Deserializing/src/main/java/network/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server Deserializing/src/main/java/network/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Serialization" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Server Deserializing" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">

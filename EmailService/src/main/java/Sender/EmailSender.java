@@ -1,5 +1,8 @@
 package Sender;
 
+import Receiver.EmailReceiver;
+import org.apache.logging.log4j.Level;
+
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
@@ -11,7 +14,7 @@ public class EmailSender {
     private String username = "empty";
     private String password = "empty";
     private Session session;
-    private final Logger logger = Logger.getLogger(EmailSender.class.getName());
+    private final org.apache.logging.log4j.Logger logger = (org.apache.logging.log4j.Logger) Logger.getLogger(EmailSender.class.getName());
 
     public EmailSender(){
         properties = createDefaultProperties();
@@ -50,7 +53,7 @@ public class EmailSender {
             Message message = generateMessage(receiverEmailAddress,subject,text);
             Transport.send(message);
         }catch (MessagingException e){
-            logger.info(e.getMessage());
+            logger.log(Level.ERROR,e.getMessage());
         }
     }
 

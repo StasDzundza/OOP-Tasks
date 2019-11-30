@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f177b441-4b5e-42c8-803e-4b917f28c47e" name="Default Changelist" comment="" />
+    <list default="true" id="f177b441-4b5e-42c8-803e-4b917f28c47e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../EmailService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../EmailService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EmailService/src/main/java/Sender/EmailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../EmailService/src/main/java/Sender/EmailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NioFTP/ftp rfc959 server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../NioFTP/ftp rfc959 server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Serializing/ClientServer object transfering/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Serializing/ClientServer object transfering/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Serializing/ClientServer object transfering/src/main/java/network/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Serializing/ClientServer object transfering/src/main/java/network/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Serializing/ClientServer object transfering/src/main/java/network/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Serializing/ClientServer object transfering/src/main/java/network/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Serializing/ClientServer object transfering/src/main/java/network/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Serializing/ClientServer object transfering/src/main/java/network/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Serializing/Server Deserializing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Serializing/Server Deserializing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Serializing/Server Deserializing/src/main/java/network/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Serializing/Server Deserializing/src/main/java/network/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Serializing/Server Deserializing/src/main/java/network/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Serializing/Server Deserializing/src/main/java/network/Main.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +27,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1RhWqFyYTcVLpsUrUkEvyGSUUGm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -60,5 +76,16 @@
       <updated>1570119996244</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

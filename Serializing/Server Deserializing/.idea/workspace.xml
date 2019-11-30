@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07841835-d9fe-4100-938c-02192dd276f2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../EmailService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../EmailService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EmailService/src/main/java/Sender/EmailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../EmailService/src/main/java/Sender/EmailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NioFTP/ftp rfc959 server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../NioFTP/ftp rfc959 server/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClientServer object transfering/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientServer object transfering/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClientServer object transfering/src/main/java/network/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientServer object transfering/src/main/java/network/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientServer object transfering/src/main/java/network/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientServer object transfering/src/main/java/network/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientServer object transfering/src/main/java/network/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientServer object transfering/src/main/java/network/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/network/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/network/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/network/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/network/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +38,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Serialization" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Scheduling" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
