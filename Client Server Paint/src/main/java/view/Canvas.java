@@ -13,12 +13,12 @@ import model.Shape;
 
 public class Canvas extends JPanel {
 
-	private final int Width = 5000;
-	private final int Height = 4000;
+	private final int WIDTH = 5000;
+	private final int HEIGHT = 4000;
 	private final Color backgroundColor = Color.WHITE;
 
 	public Canvas() {
-		Dimension maxSize = new Dimension(Width, Height);
+		Dimension maxSize = new Dimension(WIDTH, HEIGHT);
 		this.setPreferredSize(maxSize);
 		this.setBackground(backgroundColor);
 		this.setVisible(true);
@@ -43,10 +43,10 @@ public class Canvas extends JPanel {
 			
 			g2.setColor(currentShape.getColor());
 			
-			if (currentShape != null && !currentShapeName.equals(Line.Name)) {
+			if (currentShape != null && !currentShapeName.equals(Line.NAME)) {
 				g2.fill((java.awt.Shape) currentShape.drawShape(newX, newY));
 				
-			} else if(currentShapeName.equals(Line.Name)) {
+			} else if(currentShapeName.equals(Line.NAME)) {
 				g2.draw((java.awt.Shape) currentShape.drawShape(newX, newY));
 			}
 		}

@@ -41,7 +41,7 @@ public class NetPaintGUI<E> extends JPanel {
 	private JColorChooser colorChooser;
 	private static List<Shape> listOfShapes;
 	private Logger logger = Logger.getLogger(NetPaintGUI.class.getName());
-	private ObjectOutputStream output; // output stream to server
+	private ObjectOutputStream output;
 	private final int XLocation = 100;
 	private final int YLocation = 0;
 	private final int DX = 250;
@@ -108,7 +108,7 @@ public class NetPaintGUI<E> extends JPanel {
 			line.setSelected(true);
 			rect.setSelected(false);
 			oval.setSelected(false);
-			currentShapeName = Line.Name;
+			currentShapeName = Line.NAME;
 
 		}
 
@@ -163,7 +163,7 @@ public class NetPaintGUI<E> extends JPanel {
 			if (currentShapeName != null) {
 				if (!isDrawing) {
 
-					if (currentShapeName.equals(Line.Name)) {
+					if (currentShapeName.equals(Line.NAME)) {
 						currentShape = new Line(startingX, startingY);
 					}
 					if (currentShapeName.equals(Oval.Name)) {

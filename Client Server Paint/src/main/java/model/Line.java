@@ -5,7 +5,7 @@ import java.awt.geom.Line2D;
 
 public class Line extends Shape{
 
-	public final static String Name = "line";
+	public final static String NAME = "line";
 	public Line(int startX, int startY) {
 		super(startX, startY);
 		

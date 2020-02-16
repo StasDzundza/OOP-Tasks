@@ -2,16 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ed0d9fb-0424-4dea-bc93-bb8df8b513c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/Serializing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ThreadingTask/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ThreadingTask/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Client Server Paint/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Client Server Paint/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Client Server Paint/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Client Server Paint/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Client Server Paint/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Client Server Paint/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Client Server Paint/src/main/java/model/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Client Server Paint/src/main/java/model/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Client Server Paint/src/main/java/networking/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Client Server Paint/src/main/java/networking/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Client Server Paint/src/main/java/view/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Client Server Paint/src/main/java/view/Canvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Client Server Paint/src/main/java/view/NetPaintGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Client Server Paint/src/main/java/view/NetPaintGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Client Server Paint/src/test/java/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Client Server Paint/src/test/java/ShapeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EmailService/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../EmailService/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EmailService/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../EmailService/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EmailService/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../EmailService/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EmailService/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../EmailService/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EmailService/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../EmailService/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EmailService/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../EmailService/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EmailService/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../EmailService/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EmailService/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../EmailService/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EmailService/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../EmailService/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EmailService/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../EmailService/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EmailService/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../EmailService/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../EmailService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../EmailService/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../EmailService/src/main/java/Sender/EmailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../EmailService/src/main/java/Sender/EmailSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NioFTP/ftp rfc959 server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../NioFTP/ftp rfc959 server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Encryption/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Encryption/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Encryption/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Encryption/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Encryption/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Encryption/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Encryption/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Encryption/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Encryption/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Encryption/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Encryption/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Encryption/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Encryption/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Encryption/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Encryption/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Encryption/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Encryption/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Encryption/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/network/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/network/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/network/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/network/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/network/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/network/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server Deserializing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server Deserializing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server Deserializing/src/main/java/network/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server Deserializing/src/main/java/network/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server Deserializing/src/main/java/network/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server Deserializing/src/main/java/network/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThreadingTask/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThreadingTask/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThreadingTask/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThreadingTask/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThreadingTask/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThreadingTask/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThreadingTask/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThreadingTask/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThreadingTask/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThreadingTask/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThreadingTask/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThreadingTask/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/build/reports/tests/test/classes/ThreadLoggerTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThreadingTask/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/build/test-results/test/TEST-ThreadLoggerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThreadingTask/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThreadingTask/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/src/main/java/ThreadGroupInfoPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThreadingTask/src/main/java/threading/ThreadGroupInfoPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/src/main/java/ThreadRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThreadingTask/src/main/java/threading/ThreadRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/src/test/java/ThreadGroupInfoPrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThreadingTask/src/test/java/threadingTets/ThreadGroupInfoPrinterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThreadingTask/src/test/java/ThreadRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThreadingTask/src/test/java/threadingTets/ThreadRunnerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

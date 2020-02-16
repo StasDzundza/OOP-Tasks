@@ -1,3 +1,6 @@
+import threading.ThreadGroupInfoPrinter;
+import threading.ThreadRunner;
+
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         ThreadGroup group1 = new ThreadGroup(Thread.currentThread().getThreadGroup(), "firstGroup");
@@ -8,7 +11,7 @@ public class Main {
         Thread.sleep(6000);
         (new Thread(group1, new ThreadRunner(10000))).start();
         (new Thread(group2, new ThreadRunner(15000))).start();
-        ThreadGroupInfoPrinter.printTrhreadsInfo(group1);
-        ThreadGroupInfoPrinter.printTrhreadsInfo(group2);
+        ThreadGroupInfoPrinter.printThreadsInfo(group1);
+        ThreadGroupInfoPrinter.printThreadsInfo(group2);
     }
 }

@@ -27,7 +27,9 @@ public class Client extends JFrame{
 	private Logger logger = Logger.getLogger(Client.class.getName());
 	private Socket server; 
 	private ObjectOutputStream out; 
-	private ObjectInputStream in; 
+	private ObjectInputStream in;
+	private final int DX = 250;
+	private final int DY = 150;
 
 	private class ServerHandler implements Runnable{
 		public void run() {
@@ -88,7 +90,7 @@ public class Client extends JFrame{
 		
 		Toolkit tk = Toolkit.getDefaultToolkit();
 		Dimension d = tk.getScreenSize();
-		this.setSize(d.width - 250, d.height - 150);
+		this.setSize(d.width - DX, d.height - DY);
 		this.setTitle("NetPaint");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
